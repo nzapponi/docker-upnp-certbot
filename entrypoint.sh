@@ -6,4 +6,6 @@ upnpc -r 80 TCP
 certbot "$@"
 
 upnpc -d 80 TCP
+upnpc -d 80 TCP
+upnpc -d 80 TCP
 

@@ -1,4 +1,5 @@
 FROM certbot/certbot:arm32v6-latest
+LABEL com.nzapponi.prune=false
 
 RUN apk add --no-cache miniupnpc
 
