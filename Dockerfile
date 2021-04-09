@@ -1,5 +1,5 @@
-FROM certbot/certbot:arm32v6-latest
-LABEL com.nzapponi.prune=false
+FROM certbot/certbot:arm64v8-latest
+LABEL org.opencontainers.image.source=https://github.com/nzapponi/docker-upnp-certbot
 
 RUN apk add --no-cache miniupnpc
 

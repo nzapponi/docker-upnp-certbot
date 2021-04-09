@@ -5,7 +5,9 @@ This Docker image extends the official [certbot/certbot](https://hub.docker.com/
 
 ## Installation and Usage
 
-A prebuilt ARM arch image is available on Docker Hub: [nzapponi/upnp-certbot](https://hub.docker.com/r/nzapponi/upnp-certbot).
+```
+docker pull ghcr.io/nzapponi/upnp-certbot:latest
+```
 
 Alternatively, build from source by cloning this repository and running:
 ```
